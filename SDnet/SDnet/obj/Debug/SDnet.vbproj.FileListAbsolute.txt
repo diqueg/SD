@@ -1,0 +1,14 @@
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\bin\Debug\SDnet.exe
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\bin\Debug\SDnet.pdb
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\bin\Debug\SDnet.xml
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\obj\Debug\SDNet.frmControl.resources
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\obj\Debug\SDNet.Resources.resources
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\obj\Debug\SDnet.vbproj.GenerateResource.Cache
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\obj\Debug\SDnet.exe
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\obj\Debug\SDnet.xml
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\obj\Debug\SDnet.pdb
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\bin\Debug\Archivos\config.xml
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\bin\Debug\SDnet.exe.manifest
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\bin\Debug\SDnet.application
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\obj\Debug\SDnet.exe.manifest
+C:\Users\GERARDO\Documents\Visual Studio 2012\Projects\SDnet\SDnet\obj\Debug\SDnet.application

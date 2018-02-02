@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SDnet.exe" version="1.0.0.0" publicKeyToken="3ddefcd0753229a3" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Imagenes\TRFFC10C.ICO" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SDnet" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="SDnet.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SDnet.exe" size="248832">
+      <assemblyIdentity name="SDnet" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>5Z1yEl3rOuWjCyrxFxGiSDCfEqc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Archivos\config.xml" size="1011" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8ThdkB6OvpPH3RizHU333E8g+G4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Imagenes\TRFFC10C.ICO" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3GR68Df2ES9/g3IDfyWjKb7U2vU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EDT\GERARDO" issuerKeyHash="904e7687a51681459c21c10b20f71ae72ca5aec5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>qzIrMWG89pfI9WAAocI17AjYtfc=</DigestValue></Reference></SignedInfo><SignatureValue>sETGDtcVP895AnMOEuc2lhAc3O40d7rLPaRb15c78IaAWvDYTJysR37o+6735TsexTcvihVnmOoBzdYK4KyHbVkvNmXCVH+b8dhuAzEocHSwiJNFkVnerCGUba4N7ADhibAQlASn8KLP9Upq4mv0n2D3TrsJOAwUCh5vTV/SJx0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w/FTI46+0ATMR6udBdqOvbNZiKn+ByheyMh+GwunF9m914eVaTub1QshTFhkqaf4Puvy+iXnJlfq9OPsNlSBFTkIdQBqyo/Pcq6OvNWQTQwt1T0VMMGsjCkobEjb1xnX4An6QRiGGP1TszcO2hP1y9pdBUvrguinwuou3nd2f58=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f7b5d808ec35c2a10060f5c897f6bc61312b32ab" Description="" Url=""><as:assemblyIdentity name="SDnet.exe" version="1.0.0.0" publicKeyToken="3ddefcd0753229a3" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EDT\GERARDO</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>RCtTN4DYsA4tyzoCso8HAEOHwt4=</DigestValue></Reference></SignedInfo><SignatureValue>XbDT1cBwOuwgqAatzVn2FcJK7zKfPD/nq68CER7dfjzYvPt3DGX3kqLXP1PmYfmqIjA0GHLzBOP+QmLVY6fBCZwHHiUgiBdO1f+zof6nuw+gCMRo1ucPBj4B4ynF2fe8Dal0eUCTW6Bbs6yu+A6kgg182GMauNvTA9OPahnxc4A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w/FTI46+0ATMR6udBdqOvbNZiKn+ByheyMh+GwunF9m914eVaTub1QshTFhkqaf4Puvy+iXnJlfq9OPsNlSBFTkIdQBqyo/Pcq6OvNWQTQwt1T0VMMGsjCkobEjb1xnX4An6QRiGGP1TszcO2hP1y9pdBUvrguinwuou3nd2f58=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQemNF/EfQvaJGtCrQHyObNjANBgkqhkiG9w0BAQUFADAhMR8wHQYDVQQDHhYARQBEAFQAXABHAEUAUgBBAFIARABPMB4XDTE4MDEzMTE4MzIxM1oXDTE5MDIwMTAwMzIxM1owITEfMB0GA1UEAx4WAEUARABUAFwARwBFAFIAQQBSAEQATzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAw/FTI46+0ATMR6udBdqOvbNZiKn+ByheyMh+GwunF9m914eVaTub1QshTFhkqaf4Puvy+iXnJlfq9OPsNlSBFTkIdQBqyo/Pcq6OvNWQTQwt1T0VMMGsjCkobEjb1xnX4An6QRiGGP1TszcO2hP1y9pdBUvrguinwuou3nd2f58CAwEAATANBgkqhkiG9w0BAQUFAAOBgQCkCyoe51zhGGASRkzeCFtL4TK06ej7xPhwJf3oPAmLAYSX346ppdG+PvdGv0y+PQv8IRwfLEXW6sTCCKZfuA4OYQwcHU5DvICboFnkvcTc3z+VN1Q0ROC/io7xxJzY71gWUeIba8MrB2EAMOt09mpPfBCWBo90dSs4TMYml+4uNQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

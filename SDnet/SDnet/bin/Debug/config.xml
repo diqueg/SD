@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<settings>
+
+  <setting key="ConnectionString" value="Data Source=138.121.160.232,37905; User ID=autoflot;Password=auto01flot; MultipleActiveResultSets=True; Initial Catalog=AutoflotCapital" />
+  <setting key="ConnectionMQTT" value="Data Source=138.121.160.232,37905; User ID=autoflot;Password=auto01flot; MultipleActiveResultSets=True; Initial Catalog=AutoflotCapital" />
+  <setting key="LogPath" value="C:\Logs\" />
+  <setting key="LogFile" value="SDLog" />
+  <setting key="LogOverwrite" value="False" />
+  <setting key="EnviarRespuestaAComando" value="True" />
+  <setting key="NroCanalGPRS" value="201" />
+  <setting key="ServerGPRS" value="gprs.satelitech.com" />
+  <setting key="UserGPRS" value="galonso" />
+  <setting key="PasswordGPRS" value="galonso025" />
+  <setting key="GMTDif" value="-3" />
+  <setting key="SincronizarHora" value="True" />
+  <setting key="TipoInforme" value="True" />
+  <setting key="AutoRun" value="True" />
+  </settings>
